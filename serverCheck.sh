@@ -3,7 +3,7 @@
 # 2026-01-19 MatsA
 # Lightweight monitoring agent for Linux environment
 # MQTT broker subscribe example => mosquitto_sub -h localhost -t "servers/+"
-# Schedule example => crontab -e => add =>  */1 * * * * bash /home/pi/serverCheck.sh
+# Schedule example => crontab -e => add =>  */5 * * * * bash /home/pi/serverCheck.sh
 
 # Settings
 BROKER="macm.local"
